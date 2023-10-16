@@ -15,6 +15,7 @@ import { MuiSelect } from './components/MuiSelect';
 import { MuiSwitch } from './components/MuiSwitch';
 import { MuiTextField } from './components/MuiTextField';
 import { MuiTypography } from './components/MuiTypography';
+import {MuiLink} from "./components/MuiLink"
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
       <hr />
       <MuiNavbar />
       <hr />
+      <MuiLink/>
       <hr />
       <hr />
       <hr />
