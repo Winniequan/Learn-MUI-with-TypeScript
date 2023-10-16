@@ -1,9 +1,9 @@
 import React from "react";
-import { Box } from "@mui/material";
+import { Box, Stack, Divider} from "@mui/material";
 
 export const MuiLayout = () => {
   return (
-    <>
+    <Stack sx={{border: "ipx solid" }} direction="row" spacing={2} divider={<Divider orientation="vertical" flexItem/>}>
       <Box
         component="span"
         sx={{
@@ -20,6 +20,6 @@ export const MuiLayout = () => {
         Codevolution
       </Box>
       <Box display="flex" height="100px" width="100px" bgcolor="success.light" p={2}></Box>
-    </>
+    </Stack>
   );
 };
