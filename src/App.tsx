@@ -1,5 +1,7 @@
 
 import './App.css';
+import AccordionGroup from './components/AccordionGroup';
+import { MuiAccordion } from './components/MuiAccordion';
 import { MuiAutocomplete } from './components/MuiAutocomplete';
 import MuiButton from './components/MuiButton';
 import { MuiCard } from './components/MuiCard';
@@ -38,7 +40,9 @@ function App() {
       <hr />
      <MuiCard/>
       <hr />
+      <MuiAccordion/>
       <hr />
+      <AccordionGroup/>
       <hr />
       <hr />
       <hr />
