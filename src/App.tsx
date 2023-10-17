@@ -18,6 +18,7 @@ import { MuiTypography } from './components/MuiTypography';
 import {MuiLink} from "./components/MuiLink"
 import { MuiBreadcrumbs } from './components/MuiBreadcrumbs';
 import { MuiDrawer } from './components/MuiDrawer';
+import { MuiSpeedDial } from './components/MuiSpeedDial';
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
       <hr />
       <MuiDrawer/>
       <hr />
+      <MuiSpeedDial />
       <hr />
       <hr />
     </div>
